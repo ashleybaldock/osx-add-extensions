@@ -73,6 +73,63 @@
                 <string>public.source-code</string>
             </array>
         </dict>
+        <dict>
+            <key>UTTypeIdentifier</key>
+            <string>me.baldock.filetype.manifest</string>
+            <key>UTTypeTagSpecification</key>
+            <dict>
+                <key>public.filename-extension</key>
+                <array>
+                    <string>manifest</string>
+                </array>
+            </dict>
+            <key>UTTypeDescription</key>
+            <string>Firefox addon manifest</string>
+            <key>UTTypeConformsTo</key>
+            <array>
+                <string>public.text</string>
+                <string>public.plain-text</string>
+                <string>public.source-code</string>
+            </array>
+        </dict>
+        <dict>
+            <key>UTTypeIdentifier</key>
+            <string>me.baldock.filetype.xul</string>
+            <key>UTTypeTagSpecification</key>
+            <dict>
+                <key>public.filename-extension</key>
+                <array>
+                    <string>xul</string>
+                </array>
+            </dict>
+            <key>UTTypeDescription</key>
+            <string>Firefox XUL file</string>
+            <key>UTTypeConformsTo</key>
+            <array>
+                <string>public.text</string>
+                <string>public.plain-text</string>
+                <string>public.source-code</string>
+            </array>
+        </dict>
+        <dict>
+            <key>UTTypeIdentifier</key>
+            <string>me.baldock.filetype.rdf</string>
+            <key>UTTypeTagSpecification</key>
+            <dict>
+                <key>public.filename-extension</key>
+                <array>
+                    <string>rdf</string>
+                </array>
+            </dict>
+            <key>UTTypeDescription</key>
+            <string>Firefox install manifest</string>
+            <key>UTTypeConformsTo</key>
+            <array>
+                <string>public.text</string>
+                <string>public.plain-text</string>
+                <string>public.source-code</string>
+            </array>
+        </dict>
     </array>
 </dict>
 </plist>
